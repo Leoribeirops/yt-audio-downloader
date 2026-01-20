@@ -1,0 +1,38 @@
+[project]
+name = "yt-audio-downloader"
+version = "0.1.0"
+description = "CLI tool to download audio from YouTube URLs using yt-dlp."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "yt-dlp>=2024.8.6",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0",
+  "mypy>=1.10.0",
+  "types-setuptools",
+]
+
+[project.scripts]
+yt-audio-downloader = "yt_audio_downloader.cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+lint.select = ["E", "F", "I", "B", "UP", "SIM"]
+lint.ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
