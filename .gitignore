@@ -28,50 +28,12 @@ slprj/
 *.p
 
 ############################
-# === ModelSim / Questa ===
-############################
-work/
-modelsim.ini
-transcript
-vsim.wlf
-*.wlf
-*.vcd
-*.vpd
-*.log
-*.jou
-*.bak
-compile_hdl_design_ntt_intt_4pontos_xor16b.m
-run_hdl_design_ntt_intt_4pontos_xor16b.m
-compile_and_launch.tcl
-compile_hdl_design_ntt_intt_4pontos_xor16b.m
-compile_project.cr.mti
-compile_project.mpf
-hdlverifier_compile_design.do
-modelsim.ini
-launch_hdl_simulator_ntt_intt_4pontos_xor16b.m
-
-
-############################
 # OS / IDE
 ############################
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-############################
-# === Quartus Prime ===
-############################
-
-# Compilação e síntese
-db/
-incremental_db/
-simulation/
-output_files/
-greybox_tmp/
-qdb/
-cmp/
-cdb/
 
 ############################
 # === Arquivos Temporários ===
@@ -118,40 +80,6 @@ qsys/
 *.stp
 *.stp.bak
 
-############################
-# === ModelSim / Questa ===
-############################
-
-work/
-modelsim.ini
-transcript
-vsim.wlf
-*.wlf
-*.vcd
-*.vpd
-*.log
-*.jou
-*.bak
-
-############################
-# === MATLAB / Simulink ===
-############################
-
-# MATLAB
-*.asv
-*.m~
-*.autosave
-*.mex*
-*.p
-*.mat
-
-# Simulink
-slprj/
-*.slxc
-*.mdl.autosave
-*.slx.autosave
-**/codegen/
-**/sldv_output/
 
 ############################
 # === Python (se existir) ===
