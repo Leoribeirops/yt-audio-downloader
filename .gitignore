@@ -2,25 +2,15 @@
 # === Arquivos Temporários ===
 ############################
 
-backup/
-Dados_COWMED/
-download/
-backup/
-img_classic/
-img_test/
-kaggle/
-MCUCXR/
-results/
-workspace/
-*.fig
-NIST_test/
-synthesis/x*_32b.txt
-synthesis/m*_32b.txt
-synthesis/q_32b.txt
-data/*
-*.rep
-reports/*
-
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+downloads/
+teste.txt
 
 ############################
 # === MATLAB / Simulink === 
